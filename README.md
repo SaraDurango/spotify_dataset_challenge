@@ -25,7 +25,10 @@ Además del procesamiento para el datast de origen, se incluye un acercamiento p
 ### *Dataset - Tabla de Salida en formato CSV*
 
 La "Tabla de Salida" es el dataset final con los datos limpios, comprendiendo sólo las columnas relevantes, con algunas variables categóricas convertidas a dummies y las variables numéricas escaladas.
-Cabe resaltar que variables categóricas correspondientes a nombres de canción, nombres de artistas y de álbumes musicales, no se convirtieron en dummies y se transformarán más adelante con las herramientas que podamos adquirir en el curso de BIG DATA; pues éstas comprenden infinidad de posibilidades y podrían requerir métodos de transformación y/o clasificación más robustos que aprenderemos posteriormente. 
+
+Cabe resaltar que variables categóricas correspondientes a nombres de canción, nombres de artistas y de álbumes musicales, no se convirtieron en dummies para el dataset final y se transformarán más adelante con las herramientas que podamos adquirir en el curso de BIG DATA; pues estas variables comprenden infinidad de posibilidades y podrían requerir métodos de transformación y/o clasificación más robustos que aprenderemos posteriormente. 
+
+Sin embargo, se muestra una posible  transformación a dummies como paso previo a un acercamiento al modelo de KNN que planteamos como base de lo que desarrollaremos más adelante. 
 
 ## Instrucciones de Uso
 ### *Para Ejecutar el Colab de Obtención de Tabla Origen*
