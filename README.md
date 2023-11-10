@@ -3,7 +3,7 @@
 Este repositorio contiene los datos y el código relacionado con el procesamiento del conjunto de datos del Reto The Spotify Million Playlist Dataset Challenge para continuar automáticamente las listas de reproducción. 
 
 Los datos crudos se encuentran en un archivo llamado "challenge_set" en formato JSON.
-Estos datos son proporcionados directamente por Spotify y constituyen una muestra de 10,000 registros. Cada registro representa una playlist con información detallada como nombre, duración, género, pistas, número de seguidores, entre otros.
+Estos datos son proporcionados directamente por Spotify y constituyen una muestra de 10,000 registros. Cada registro representa una playlist con información detallada como nombre, duración, pistas, número de seguidores, entre otros.
 Estos datos se encuentran disponibles en el siguiente link de Google Drive https://drive.google.com/file/d/1VTgm7UdzeTlqfrymG_o_niVIK_EeYFM6/view?usp=drive_link dentro de la carpeta ZIP llamada "Spotify Million Playlist Dataset Challenge".
 
 ## Contenido del Repositorio
@@ -20,11 +20,12 @@ La "Tabla Origen" es el resultado de la transformación del  archivo JSON en una
 ### *Archivo de Google Colab con el Código de Transformación a Dataset -Tabla de Salida*
 
 Otro archivo de Google Colab está disponible con el código necesario para transformar la "Tabla Origen" en una nueva tabla llamada "Tabla de Salida".
+Además del procesamiento para el datast de origen, se incluye un acercamiento previo al modelo de KNN que se desarrollará y mejorará más adelante con las herramientas que se aprendan en el curso de Big Data. 
 
 ### *Dataset - Tabla de Salida en formato CSV*
 
 La "Tabla de Salida" es el dataset final con los datos limpios, comprendiendo sólo las columnas relevantes, con algunas variables categóricas convertidas a dummies y las variables numéricas escaladas.
-Cabe resaltar que variables categóricas correspondientes a nombres de canción, nombres de artistas y de álbumes musicales, no se convirtieron en dummies y se transformarán más adelante cuando se esté viendo el curso de BIG DATA; pues éstas comprenden infinidad de posibilidades y podrían requerir métodos de transformación y/o clasificación más robustos que se salen del alcance de esta entrega. 
+Cabe resaltar que variables categóricas correspondientes a nombres de canción, nombres de artistas y de álbumes musicales, no se convirtieron en dummies y se transformarán más adelante con las herramientas que podamos adquirir en el curso de BIG DATA; pues éstas comprenden infinidad de posibilidades y podrían requerir métodos de transformación y/o clasificación más robustos que aprenderemos posteriormente. 
 
 ## Instrucciones de Uso
 ### *Para Ejecutar el Colab de Obtención de Tabla Origen*
