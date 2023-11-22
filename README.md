@@ -30,6 +30,9 @@ Cabe resaltar que variables categóricas correspondientes a nombres de canción,
 
 Sin embargo, se muestra una posible  transformación a dummies como paso previo a un acercamiento al modelo de KNN que planteamos como base de lo que desarrollaremos más adelante. 
 
+### *Documento de Word con avance de monografía*
+Se incluye uun documento con avances de la monografía hasta el punto 3. 
+
 ## Instrucciones de Uso
 ### *Para Ejecutar el Colab de Obtención de Tabla Origen*
 *Descarga el archivo ZIP "Spotify Million Playlist Dataset Challenge" desde el enlace de Google Drive https://drive.google.com/file/d/1VTgm7UdzeTlqfrymG_o_niVIK_EeYFM6/view?usp=drive_link 
